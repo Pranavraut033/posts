@@ -1,10 +1,9 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
       <h1 class="title">Welcome to posts</h1>
       <div class="links">
-        <nuxt-link to="/login" class="button --priamry"> Login </nuxt-link>
+        <nuxt-link to="/login" class="button --primary"> Login </nuxt-link>
       </div>
     </div>
   </div>
@@ -34,7 +33,7 @@ export default {}
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 3rem;
   color: #35495e;
   letter-spacing: 1px;
 }
